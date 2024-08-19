@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="todo-content">
+        <h1>Todo List</h1>
+        <!-- Progress Bar -->
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        
+        <label for="task">Task: </label>
+        <input type="text" id="task" placeholder="Enter Task" required>
+        <label for="tags">Tags: </label>
+        <input type="text" id="tags" placeholder="Enter Tags">
+        <label for="date">Date: </label>
+        <input type="date" id="date" placeholder="Enter Date">
+        <button onclick="addTodo()">Add todo!</button>
+
+        <!-- Task Container -->
+        <div id="task-container"></div>
+    </div>
+
+</body>
+    <footer>Developed By <a href="https://x.com/100xyash">Yash Makhija</a></footer>
+</html>
